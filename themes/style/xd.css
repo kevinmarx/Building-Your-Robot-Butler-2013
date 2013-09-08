@@ -1,5 +1,5 @@
 body {
-    background: #fff url(../img/logo_adobe.png) top right no-repeat fixed;
+    background: #fff;
 }
 
 iframe {
@@ -8,23 +8,21 @@ iframe {
     height: 100%;
 }
 
-.adobe-logo {
-    position: absolute;
-    right: 0;
-    height: 79px;
-    width: 100px;
-    background: url(../img/logo_adobe.png) top right no-repeat fixed;
-    z-index: 100;
-}
-
-.deck-container .slide.product_image {
-    background: #fff;
-}
-
 .deck-container .slide.quote {
     color: #fff;
     font-style: italic;
-    background: #ff0000;
+    background: #0d0f20;
+}
+
+.deck-container .slide.sub-slide {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.deck-container .slide.code {
+    color: #fff;
+    font-style: italic;
+    background: #0d0f20
 }
 
 .deck-container h1.title {

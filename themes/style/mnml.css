@@ -12,10 +12,10 @@
 .deck-container {
     font-family: "AdobeClean", "HelveticaNeue-light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.25em;
-    background: -webkit-linear-gradient(270deg,white 0%,#ccc 100%);
-	background: -moz-linear-gradient(270deg,white 0%,#ccc 100%);
-	background: -o-linear-gradient(270deg,white 0%,#ccc 100%);
-	background: -ms-linear-gradient(270deg,white 0%,#ccc 100%);
+    background: -webkit-linear-gradient(270deg,white 0%,#f0f0f0 100%);
+	background: -moz-linear-gradient(270deg,white 0%,#f0f0f0 100%);
+	background: -o-linear-gradient(270deg,white 0%,#f0f0f0 100%);
+	background: -ms-linear-gradient(270deg,white 0%,#f0f0f0 100%);
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
     -webkit-box-shadow: 0 0 4em #ccc;
@@ -23,10 +23,10 @@
             box-shadow: 0 0 4em #ccc;
 }
 .deck-container .slide {
-	background: -webkit-linear-gradient(270deg,white 0%,#ccc 100%);
-	background: -moz-linear-gradient(270deg,white 0%,#ccc 100%);
-	background: -o-linear-gradient(270deg,white 0%,#ccc 100%);
-	background: -ms-linear-gradient(270deg,white 0%,#ccc 100%);
+	background: -webkit-linear-gradient(270deg,white 0%,#f0f0f0 100%);
+	background: -moz-linear-gradient(270deg,white 0%,#f0f0f0 100%);
+	background: -o-linear-gradient(270deg,white 0%,#f0f0f0 100%);
+	background: -ms-linear-gradient(270deg,white 0%,#f0f0f0 100%);
 }
 .deck-container .slide .sub-slide {
     background: none;
@@ -103,11 +103,11 @@
     color: #888;
 }
 .deck-container .slide ::-moz-selection {
-    background: #c00;
+    background: #0d0f20;
     color: #fff;
 }
 .deck-container .slide ::selection {
-    background: #c00;
+    background: #0d0f20;
     color: #fff;
 }
 .deck-container .slide a,
