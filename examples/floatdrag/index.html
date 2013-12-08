@@ -1,0 +1,86 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>float drag</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+    <div class="controls clearfix">
+      <ul>
+        <li>
+          <button id="float">Float</button>
+        </li>
+        <li>
+          <button id="clear">Clear</button>
+        </li>
+      </ul>
+    </div>
+
+    <div id="first" class="item clearfix">
+      <div class="metrics margintop"></div>
+      <div class="metrics marginright"></div>
+      <div class="metrics marginleft"></div>
+      <div class="metrics marginbottom"></div>
+      <p>
+        ONE
+      </p>
+    </div>
+
+    <div id="second" class="item clearfix">
+      <div class="metrics margintop"></div>
+      <div class="metrics marginright"></div>
+      <div class="metrics marginleft"></div>
+      <div class="metrics marginbottom"></div>
+      <p>
+        TWO
+      </p>
+    </div>
+
+
+    <div id="third" class="item clearfix">
+      <div class="metrics margintop"></div>
+      <div class="metrics marginright"></div>
+      <div class="metrics marginleft"></div>
+      <div class="metrics marginbottom"></div>
+      <p>
+        THREE
+      </p>
+    </div>
+
+    <div class="divider"></div>
+
+  <footer>
+
+  </footer>
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>-->
+  <script src="js/libs/jquery.js"></script>
+  <script src="js/libs/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/libs/dragon.js"></script>
+
+  <!-- scripts concatenated and minified via build script -->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts -->
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<div class="codeContainer">
+<% var regions = data.regions[i].data; %>
+<% for (var i = 0; i < regions.length; i++) { %>
+<header class="codeHeader">
+    <span class="title"><%= regions[i].label %></span>
+    <button class="headerToggle"></button>
+</header>
+<div class="code">
+<% var data = regions[i].data; %>
+<% for (var key in data) { %>
+    <% if(key.indexOf("color") == -1 ) { %>
+<span class="property"><%= key %>:</span> <span class="value"><%= data[key] %></span>;
+    <% } else { %>
+<span class="property"><%= key %>:</span> <span class="color"><%= data[key] %></span>;
+    <% }; %>
+<%  }; %>
+    </div>
+<%  }; %>
+</div>
