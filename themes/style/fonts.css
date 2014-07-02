@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'AdobeClean';
+    src: local('AdobeClean-Regular');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AdobeClean';
+    src: local('AdobeClean-LightIt');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AdobeClean';
+    src: local('AdobeClean-Light');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AdobeClean';
+    src: local('AdobeClean-Bold');
+    font-weight: 200;
+    font-style: normal;
+}
